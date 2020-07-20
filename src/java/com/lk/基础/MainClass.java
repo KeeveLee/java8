@@ -11,5 +11,9 @@ public class MainClass {
         ChildClass childClass = new ChildClass();
         String aaaa = childClass.getStr("aaaa");
         System.out.println(aaaa);
+
+
+        System.out.println(OperationEnum.PLUS.apply(1, 2));
+
     }
 }
